@@ -25,7 +25,7 @@ app.use("/image", ApparelEntries);
 app.use("/image", GeneralEntries);
 app.use("/delete", DeleteAccount);
 
-if (process.env.NODE_ENV) {
+if (process.env.NODE_ENV === 'production') {
 app.use(express.static('client/build'));
 }
 

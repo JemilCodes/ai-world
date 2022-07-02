@@ -20,7 +20,6 @@ export default function SignIn(props) {
     setInputPassword(event.target.value);
   };
   const onSignin = () => {
-    props.routeToggler("home");
     if (inputEmail.length > 0 && inputPassword.length > 0) {
       setProcessing(true);
       fetch("http://localhost:3001/login", {
