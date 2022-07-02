@@ -1,0 +1,22 @@
+.image-wrapper {
+  border: 10px solid skyblue;
+  width: fit-content;
+  box-shadow: 0 0 5px skyblue, 0 0 20px skyblue, 0 0 60px skyblue,
+    0 0 150px skyblue;
+}
+.image {
+  width: 500px;
+  height: auto;
+}
+@media screen and (max-width: 700px) {
+  .image {
+    width: 400px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  .image {
+    width: 250px;
+    height: auto;
+  }
+}

@@ -1,0 +1,52 @@
+.ImagelinkForm {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.ImagelinkForm > input {
+  border: 2px solid skyblue;
+  padding: 15px;
+  color: aqua;
+  margin-right: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 200px;
+  font-size: 15px;
+}
+.ImagelinkForm > button {
+  background-color: skyblue;
+  border: 2px solid skyblue;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px skyblue;
+}
+.pro {
+  background-color: skyblue;
+  border: 2px solid skyblue;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px skyblue;
+}
+.ImagelinkForm > button:active {
+  background-color: white;
+  color: skyblue;
+  border: 2px solid skyblue;
+  box-shadow: 0px 0px 0px 1px blue;
+}

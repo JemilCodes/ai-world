@@ -1,0 +1,35 @@
+.notice-board {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: skyblue;
+  color: white;
+  font-style: oblique;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 1px 1px 10px grey;
+  transition: all 1.8s ease-in-out;
+  -webkit-transition: all 1.8s ease-in-out;
+  -moz-transition: all 1.8s ease-in-out;
+  -ms-transition: all 1.8s ease-in-out;
+  -o-transition: all 1.8s ease-in-out;
+}
+.notice-board > h4 {
+  color: blue;
+}
+.away {
+  position: absolute;
+  right: -100%;
+  z-index: 100;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+}

@@ -1,0 +1,97 @@
+.model-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+}
+.model-wrapper {
+  margin: 5%;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.model {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+.img {
+  width: 400px;
+  height: 250px;
+}
+.bg-face {
+  background-image: url("https://f.hubspotusercontent20.net/hubfs/4505120/home/facedetection.jpg");
+  background-size: cover;
+}
+
+.bg-food {
+  background-image: url(https://f.hubspotusercontent20.net/hubfs/4505120/home/food.jpg);
+  background-size: cover;
+}
+.bg-color {
+  background-image: url("https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNvbG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
+.bg-apparel {
+  background-image: url(https://f.hubspotusercontent20.net/hubfs/4505120/home/apparel-detection.jpg);
+  background-size: cover;
+}
+.bg-general {
+  background-image: url(https://f.hubspotusercontent20.net/hubfs/4505120/home/general.jpg);
+  background-size: cover;
+}
+.bg-real {
+  background-image: url(https://jpn.nec.com/biometrics/face/about/images/h1/imageheader_sp_v3r.jpg);
+  background-size: cover;
+}
+.model:hover {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+@media screen and (max-width: 1300px) {
+  .model-wrapper {
+    grid-gap: 100px;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 950px) {
+  .model-wrapper {
+    grid-gap: 50px;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 450px) {
+  .model-wrapper {
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+  }
+  .model {
+    width: 250px;
+  }
+  .img {
+    width: 250px;
+  }
+}

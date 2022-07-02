@@ -1,0 +1,30 @@
+.notification {
+  margin-top: 25px;
+  background-color: darkred;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: white;
+  box-shadow: 1px 1px 10px red;
+  width: fit-content;
+  font-size: larger;
+  padding: 0px 10px 0px 10px;
+  position: fixed;
+}
+.success {
+  margin-top: 25px;
+  background-color: darkgreen;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: white;
+  width: fit-content;
+  font-size: larger;
+  padding: 0px 10px 0px 10px;
+  box-shadow: 1px 1px 10px green;
+  position: fixed;
+}

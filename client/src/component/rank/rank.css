@@ -1,0 +1,19 @@
+.Rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content;
+  height: auto;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .rank-name {
+  font-size: 30px;
+} */
+.rank-entries {
+  padding: 20px;
+  font-size: 25px;
+}
