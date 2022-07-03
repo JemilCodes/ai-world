@@ -195,7 +195,7 @@ export default function App() {
   const [deletedError , setDeletedError] = React.useState(false)
   const handleDelete = () => {
     setDeleting(true)
-    fetch("http://localhost:3001/delete", {
+    fetch("https://aiworldbyjemil.herokuapp.com/delete", {
       method: "delete",
       headers: { "content-Type": "application/json" },
       body: JSON.stringify({

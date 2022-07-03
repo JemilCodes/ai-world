@@ -58,7 +58,7 @@ export default function ColorModel(props) {
       .then((result) => {
         setProcessing(false);
         if (result.outputs[0].data.colors.length >= 1) {
-          fetch("http://localhost:3001/image/colormodel", {
+          fetch("https://aiworldbyjemil.herokuapp.com/image/colormodel", {
             method: "put",
             headers: { "content-Type": "application/json" },
             body: JSON.stringify({

@@ -39,7 +39,7 @@ export default function Register(props) {
         inputEmail.includes(".com")
       ) {
         setprocessing(true);
-        fetch("http://localhost:3001/register", {
+        fetch("https://aiworldbyjemil.herokuapp.com/register", {
           method: "post",
           headers: { "content-Type": "application/json" },
           body: JSON.stringify({

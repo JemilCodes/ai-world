@@ -57,7 +57,7 @@ export default function FoodModel(props) {
       .then((result) => {
         setProcessing(false);
         if (result.outputs[0].data.concepts.length >= 1) {
-          return fetch("http://localhost:3001/image/foodmodel", {
+          return fetch("https://aiworldbyjemil.herokuapp.com/image/foodmodel", {
             method: "put",
             headers: { "content-Type": "application/json" },
             body: JSON.stringify({

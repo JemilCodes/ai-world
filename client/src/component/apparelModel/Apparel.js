@@ -58,7 +58,7 @@ export default function Apparel(props) {
       .then((result) => {
         setProcessing(false);
         if (result.outputs[0].data.concepts.length >= 1) {
-          fetch("http://localhost:3001/image/apparelmodel", {
+          fetch("https://aiworldbyjemil.herokuapp.com/image/apparelmodel", {
             method: "put",
             headers: { "content-Type": "application/json" },
             body: JSON.stringify({

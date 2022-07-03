@@ -75,7 +75,7 @@ export default function FaceRecognition(props) {
       .then((result) => {
         setProcessing(false);
         if (result && result.outputs[0].data.regions.length >= 1) {
-          fetch("http://localhost:3001/image/facemodel", {
+          fetch("https://aiworldbyjemil.herokuapp.com/image/facemodel", {
             method: "put",
             headers: { "content-Type": "application/json" },
             body: JSON.stringify({
